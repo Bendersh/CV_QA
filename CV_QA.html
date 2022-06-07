@@ -1,10 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>CV_QA_MELNYK</title>
+        <title>QA Melnyk CV</title>
+        <style>
+            .melnyk {
+                color: black;
+                font-style: italic;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            .QA {
+                text-align: center;
+                font-style: italic;
+                margin-top: 15px;
+            }
+
+            .body {
+                background: whitesmoke url(blue.png);
+                background-size: 100%;
+            }
+
+            .personal {
+                border: 5px solid deepskyblue;
+                padding: 10px;
+                margin-left: 50px;
+                margin-right: 50px;
+                background-color: white;
+            }
+
+            .hard {
+                border: 5px solid deepskyblue;
+                padding: 10px;
+                display: inline-block;
+                background-color: white;
+                margin-left: 50px;
+                margin-top: 25px;
+                width: 850px;
+                height: 300px;
+            }
+
+            .contact {
+                border: 5px solid deepskyblue;
+                display: inline-block;    
+                margin-left: 40px;
+                vertical-align: top;
+                margin-top: 25px;
+                width: 850px; 
+                background-color: white;
+                height: 300px;
+            }
+
+            .link {
+                color: blue;
+            }
+
+            .link:hover {
+                color: red;
+                text-decoration: underline;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     </head>
-    <body>
-        <h1>This is my CV!</h1>
-        <h2>Second</h2>
+    <body class="body">
+        <header>
+            <h1 class="melnyk">MELNYK DMYTRO</h1>
+            <h4 class="QA">QA Engineer</h4>
+        </header>
+        <main>
+            <article class="personal">
+                <h2>PERSONAL PROFILE</h2>
+                <p>I am QA Engineer with experience testing database, web, desktop and API.</p>
+            </article>
+            <article>
+                <div class="hard">
+                    <h2>HARD SKILLS</h2>
+                    <ul>
+                        <Li>hard skill SQL server management studio;</Li>
+                        <li>testing theory;</li>
+                        <li>API testing (Postman, Swagger, SoapUI);</li>
+                        <li>Python basic (PyTest FrameWork);</li>
+                        <li>C# basic;</li>
+                        <li>HTML and CSS basics;</li>
+                        <li>Selenium and ChromeDrive</li>
+                        <li>JIRA and AZURE tfs;</li>
+                        <li>SCRUM methodologic.</li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h2>CONTACT INFO</h2>
+                    <ul>
+                        <li>Email: hokmun16@gmail.com</li>
+                        <li>Phone: +380-962-617-489</li>
+                        <li class="link"><a href="https://www.linkedin.com/in/dmytro-melnyk-4238161b9/">Linkdin</a></li>
+                        <li class="link"><a href="https://t.me/MelnykD">Telegram</a></li>
+                    </ul>
+                </div>
+            </article>    
+        </main>       
     </body>
 </html>
